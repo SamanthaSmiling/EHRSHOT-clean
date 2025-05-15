@@ -1,0 +1,14 @@
+2024-05-29 23:41:34.561 | INFO     | __main__:<module>:66 - Task: lab_anemia
+2024-05-29 23:41:34.561 | INFO     | __main__:<module>:67 - Loading patient database from: ../../EHRSHOT_ASSETS/femr/extract
+2024-05-29 23:41:34.561 | INFO     | __main__:<module>:68 - Saving output to: ../../EHRSHOT_ASSETS/benchmark/lab_anemia
+2024-05-29 23:41:34.561 | INFO     | __main__:<module>:69 - # of threads: 20
+2024-05-29 23:41:34.564 | INFO     | __main__:<module>:74 - Start | Load PatientDatabase
+2024-05-29 23:41:34.564 | INFO     | __main__:<module>:77 - Finish | Load PatientDatabase
+2024-05-29 23:41:34.582 | INFO     | __main__:<module>:120 - Start | Label patients
+2024-05-29 23:42:03.127 | INFO     | __main__:<module>:125 - Finish | Label patients
+2024-05-29 23:42:03.506 | INFO     | __main__:<module>:133 - Saving labeled patients to `../../EHRSHOT_ASSETS/benchmark/lab_anemia/labeled_patients.csv`
+2024-05-29 23:42:05.313 | INFO     | __main__:<module>:137 - LabeledPatient stats:
+Total # of patients = 6739
+Total # of patients with at least one label = 6086
+Total # of labels = 184880
+2024-05-29 23:42:05.314 | SUCCESS  | __main__:<module>:141 - Done!

@@ -1,0 +1,14 @@
+2024-05-29 23:37:23.550 | INFO     | __main__:<module>:66 - Task: new_hyperlipidemia
+2024-05-29 23:37:23.550 | INFO     | __main__:<module>:67 - Loading patient database from: ../../EHRSHOT_ASSETS/femr/extract
+2024-05-29 23:37:23.550 | INFO     | __main__:<module>:68 - Saving output to: ../../EHRSHOT_ASSETS/benchmark/new_hyperlipidemia
+2024-05-29 23:37:23.550 | INFO     | __main__:<module>:69 - # of threads: 20
+2024-05-29 23:37:23.551 | INFO     | __main__:<module>:74 - Start | Load PatientDatabase
+2024-05-29 23:37:23.551 | INFO     | __main__:<module>:77 - Finish | Load PatientDatabase
+2024-05-29 23:37:23.569 | INFO     | __main__:<module>:120 - Start | Label patients
+2024-05-29 23:37:44.053 | INFO     | __main__:<module>:125 - Finish | Label patients
+2024-05-29 23:37:44.067 | INFO     | __main__:<module>:133 - Saving labeled patients to `../../EHRSHOT_ASSETS/benchmark/new_hyperlipidemia/labeled_patients.csv`
+2024-05-29 23:37:44.124 | INFO     | __main__:<module>:137 - LabeledPatient stats:
+Total # of patients = 6739
+Total # of patients with at least one label = 2650
+Total # of labels = 4442
+2024-05-29 23:37:44.124 | SUCCESS  | __main__:<module>:141 - Done!

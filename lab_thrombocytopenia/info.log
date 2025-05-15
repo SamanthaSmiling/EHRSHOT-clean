@@ -1,0 +1,14 @@
+2024-05-29 23:39:16.960 | INFO     | __main__:<module>:66 - Task: lab_thrombocytopenia
+2024-05-29 23:39:16.960 | INFO     | __main__:<module>:67 - Loading patient database from: ../../EHRSHOT_ASSETS/femr/extract
+2024-05-29 23:39:16.961 | INFO     | __main__:<module>:68 - Saving output to: ../../EHRSHOT_ASSETS/benchmark/lab_thrombocytopenia
+2024-05-29 23:39:16.961 | INFO     | __main__:<module>:69 - # of threads: 20
+2024-05-29 23:39:16.962 | INFO     | __main__:<module>:74 - Start | Load PatientDatabase
+2024-05-29 23:39:16.963 | INFO     | __main__:<module>:77 - Finish | Load PatientDatabase
+2024-05-29 23:39:16.980 | INFO     | __main__:<module>:120 - Start | Label patients
+2024-05-29 23:39:45.685 | INFO     | __main__:<module>:125 - Finish | Label patients
+2024-05-29 23:39:46.049 | INFO     | __main__:<module>:133 - Saving labeled patients to `../../EHRSHOT_ASSETS/benchmark/lab_thrombocytopenia/labeled_patients.csv`
+2024-05-29 23:39:47.253 | INFO     | __main__:<module>:137 - LabeledPatient stats:
+Total # of patients = 6739
+Total # of patients with at least one label = 6063
+Total # of labels = 179618
+2024-05-29 23:39:47.253 | SUCCESS  | __main__:<module>:141 - Done!

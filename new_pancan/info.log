@@ -1,0 +1,14 @@
+2024-05-29 23:37:46.133 | INFO     | __main__:<module>:66 - Task: new_pancan
+2024-05-29 23:37:46.133 | INFO     | __main__:<module>:67 - Loading patient database from: ../../EHRSHOT_ASSETS/femr/extract
+2024-05-29 23:37:46.133 | INFO     | __main__:<module>:68 - Saving output to: ../../EHRSHOT_ASSETS/benchmark/new_pancan
+2024-05-29 23:37:46.133 | INFO     | __main__:<module>:69 - # of threads: 20
+2024-05-29 23:37:46.172 | INFO     | __main__:<module>:74 - Start | Load PatientDatabase
+2024-05-29 23:37:46.172 | INFO     | __main__:<module>:77 - Finish | Load PatientDatabase
+2024-05-29 23:37:46.189 | INFO     | __main__:<module>:120 - Start | Label patients
+2024-05-29 23:38:06.020 | INFO     | __main__:<module>:125 - Finish | Label patients
+2024-05-29 23:38:06.038 | INFO     | __main__:<module>:133 - Saving labeled patients to `../../EHRSHOT_ASSETS/benchmark/new_pancan/labeled_patients.csv`
+2024-05-29 23:38:06.097 | INFO     | __main__:<module>:137 - LabeledPatient stats:
+Total # of patients = 6739
+Total # of patients with at least one label = 3864
+Total # of labels = 7011
+2024-05-29 23:38:06.097 | SUCCESS  | __main__:<module>:141 - Done!

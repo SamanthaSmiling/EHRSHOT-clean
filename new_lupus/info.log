@@ -1,0 +1,14 @@
+2024-05-29 23:38:28.964 | INFO     | __main__:<module>:66 - Task: new_lupus
+2024-05-29 23:38:28.964 | INFO     | __main__:<module>:67 - Loading patient database from: ../../EHRSHOT_ASSETS/femr/extract
+2024-05-29 23:38:28.964 | INFO     | __main__:<module>:68 - Saving output to: ../../EHRSHOT_ASSETS/benchmark/new_lupus
+2024-05-29 23:38:28.964 | INFO     | __main__:<module>:69 - # of threads: 20
+2024-05-29 23:38:28.965 | INFO     | __main__:<module>:74 - Start | Load PatientDatabase
+2024-05-29 23:38:28.965 | INFO     | __main__:<module>:77 - Finish | Load PatientDatabase
+2024-05-29 23:38:28.983 | INFO     | __main__:<module>:120 - Start | Label patients
+2024-05-29 23:38:48.974 | INFO     | __main__:<module>:125 - Finish | Label patients
+2024-05-29 23:38:48.992 | INFO     | __main__:<module>:133 - Saving labeled patients to `../../EHRSHOT_ASSETS/benchmark/new_lupus/labeled_patients.csv`
+2024-05-29 23:38:49.292 | INFO     | __main__:<module>:137 - LabeledPatient stats:
+Total # of patients = 6739
+Total # of patients with at least one label = 3864
+Total # of labels = 7038
+2024-05-29 23:38:49.293 | SUCCESS  | __main__:<module>:141 - Done!

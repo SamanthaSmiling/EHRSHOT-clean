@@ -1,0 +1,7 @@
+{
+    "path_to_database": "../../EHRSHOT_ASSETS/femr/extract",
+    "path_to_labels_dir": "../../EHRSHOT_ASSETS/benchmark",
+    "path_to_chexpert_csv": "../../EHRSHOT_ASSETS/benchmark/chexpert/chexpert_labeled_radiology_notes.csv",
+    "labeling_function": "new_celiac",
+    "num_threads": 20
+}
