@@ -1,0 +1,5 @@
+2024-05-30 00:19:09,588 [MainThread  ] [INFO ]  Preparing batches with Namespace(directory='../../EHRSHOT_ASSETS/features/clmbr_batches', data_path='../../EHRSHOT_ASSETS/femr/extract', dictionary_path='../../EHRSHOT_ASSETS/models/clmbr/dictionary', task='labeled_patients', transformer_vocab_size=65536, clmbr_survival_dictionary_path=None, labeled_patients_path='../../EHRSHOT_ASSETS/benchmark/all_labels.csv', is_hierarchical=False, seed=97, val_start=70, test_start=85, batch_size=131072, note_embedding_data=None, limit_to_patients_file=None, limit_before_date=None, num_clmbr_tasks=8192)
+2024-05-30 00:19:16,074 [MainThread  ] [INFO ]  Wrote config ...
+2024-05-30 00:19:16,075 [MainThread  ] [INFO ]  Starting to load
+2024-05-30 00:19:37,955 [MainThread  ] [INFO ]  Loaded
+2024-05-30 00:19:46,751 [MainThread  ] [INFO ]  Number of train patients 183
